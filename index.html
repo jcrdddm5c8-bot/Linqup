@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get Linq Up</title>
+<script>
+  var IOS = "https://apps.apple.com/co/app/linq-up/id6754610870?l=en-GB";
+  var ANDROID = "https://play.google.com/store/apps/details?id=com.linqup.linqupapp";
+  var ua = navigator.userAgent || "";
+  var isIOS = /iPhone|iPad|iPod/i.test(ua) ||
+    (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  if (isIOS) { location.replace(IOS); }
+  else if (/Android/i.test(ua)) { location.replace(ANDROID); }
+</script>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; text-align: center; padding: 3rem 1rem; }
+  a { display: block; max-width: 260px; margin: 1rem auto; padding: .9rem; border-radius: 10px;
+      background: #111; color: #fff; text-decoration: none; }
+</style>
+</head>
+<body>
+  <h2>Get Linq Up</h2>
+  <a href="https://apps.apple.com/co/app/linq-up/id6754610870?l=en-GB">Download on the App Store</a>
+  <a href="https://play.google.com/store/apps/details?id=com.linqup.linqupapp">Get it on Google Play</a>
+</body>
+</html>
